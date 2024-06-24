@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amalu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header" >
+        <div class="menu container">
+            <a href="#" class="logo">Amalu</a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="images/car.svg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Vaciar carrito</a>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-content container">
+            <div class="header-img">
+                <img src="inicio1.jfif" alt="">
+            </div>
+            <div class="header-txt">
+                <h1>Ofertas  especiales</h1>
+                <p>Regala las flores más hermosas</p>
+               <a href="#" class="btn-1">Información</a> 
+            </div>
+        </div>
+
+    </header>
+
+    <section class="ofert container">
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="oferta1.jpg" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Producto 1</h3>
+                <a href="#" class="btn-2">Información</a>
+            </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="oferta2.jpg" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Producto 2</h3>
+                <a href="#" class="btn-2">Información</a>
+            </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="oferta3.jfif" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Producto 3</h3>
+                <a href="#" class="btn-2">Información</a>
+            </div>
+        </div>
+    </section>
+
+    <main class="products container" id="lista-1">
+
+        <h2>Productos</h2>
+
+        <div class="product-content">
+
+            <div class="product">
+                <img src="2.jfif" alt="">
+                <div class="product-txt">
+                    <h3>Corazón Rosas</h3>
+                    <p>Te ofrecemos un hermoso arreglo florar en forma de corazón, con rosas naturales</p>
+                    <p class="precio">$200.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="3.jfif" alt="">
+                <div class="product-txt">
+                    <h3>Ramo con peluche</h3>
+                    <p>Te ofrecemos un hermoso ramo de rosas tradicional con peluche a tu elección</p>
+                    <p class="precio">$130.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="4.jfif" alt="">
+                <div class="product-txt">
+                    <h3>Arrglo floral surtifo</h3>
+                    <p>Te ofrecemos un arreglo de flores sencillo con variedad de rosas naturales mas distintos elementos decoraticos para complementar</p>
+                    <p class="precio">$90.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="5.jfif" alt="">
+                <div class="product-txt">
+                    <h3>Ramo tradicional con chocolates</h3>
+                    <p>Te ofrecemos un ramo de rosas tradicional con caja de chocolates elegantes</p>
+                    <p class="precio">$150.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="6.jfif" alt="">
+                <div class="product-txt">
+                    <h3>Corazón sencillo</h3>
+                    <p>Te ofrecemos un arreglo en forma de corazón sencillo</p>
+                    <p class="precio">$100.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="7.jfif" alt="">
+                <div class="product-txt">
+                    <h3>Piramide Rosas</h3>
+                    <p>Te ofrecemos un hermoso arreglo de flores en piramide con flores de temporada como complemento</p>
+                    <p class="precio">$180.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <section class="icons container">
+        <div class="icons-1">
+            <div class="icons-img">
+                <img src="images/i1.svg" alt="">
+            </div>
+            <div class="icons-txt">
+                <h3> Retirar el envoltorio </h3>
+                <p>Habitualmente, los ramos de flores suelen ir envueltos en celofán o papel. Unos envoltorios necesarios para proteger las flores durante el transporte. Sin embargo, retirarlos es fundamental para conservar un ramo de rosas. El envoltorio suele restar oxigenación a nuestras flores frescas. El plástico no transpira, y cuánto más aire tengan más larga será su vida.</p>
+            </div>
+        </div>
+                <div class="icons-1">
+            <div class="icons-img">
+                <img src="images/i2.svg" alt="">
+            </div>
+            <div class="icons-txt">
+                <h3>Cortar los tallos, fundamental para conservar un ramo de rosas </h3>
+                <p>Entender hasta qué punto esta tarea es fundamental para conservar un ramo de rosas pasa por comprender algo. Al igual que en la planta, los tallos de rosas cortadas tienden a cicatrizar. Un gesto natural de la planta, que impide la absorción de agua. Por eso, cortar de manera regular los tallos permite favorecer que la planta se mantenga hidratada.</p>
+            </div>
+        </div>
+                <div class="icons-1">
+            <div class="icons-img">
+                <img src="images/i3.svg" alt="">
+            </div>
+            <div class="icons-txt">
+                <h3>Rehidratarlas si se marchitan</h3>
+                <p>En ocasiones, nuestras rosas presentan un aspecto decaído. Si detectamos que alguna de nuestras rosas se inclina hacia delante, hay que tomar cartas en el asunto. Tenemos dos opciones: o bien pulverizar agua sobre ellas, o bien sumergirlas directamente en agua durante un rato.</p>
+            </div>
+        </div> 
+    </section>
+
+    <section class="blog container">
+        <div class="blog-1">
+            <img src="b1.jfif" alt="">
+            <h3>Regala rosas Colombianas</h3>
+            <p>
+                La industria floricultora colombiana ha logrado su propio espacio privilegiado en el mercado internacional gracias a un esfuerzo sostenido que incrementa los niveles de comercialización año tras año y que para 2020 proyecta la venta de cerca de 1.500 millones de dólares a través de la exportación de 600 millones de tallos de 1.600 variedades de flores
+            </p>
+        </div>
+
+        <div class="blog-1">
+            <img src="b2.jfif" alt="">
+            <h3>Emprendedoras</h3>
+            <p>
+                Ofrecemos envíos el mismo día de flores, ramos, Bonsáis y arreglos florales a domicilio a cualquier parte de Bogotá.
+            </p>
+        </div>
+
+        <div class="blog-1">
+            <img src="b3.jfif" alt="">
+            <h3>¿Sabias que?</h3>
+            <p>
+                Las rosas es por muchos considerada la reina de las flores, incluso su encantadora forma podría ser considerada como una corona. Son las flores más regaladas en el mundo ya que culturalmente representan el amor, la pasión, el deseo y el cariño.
+            </p>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Emprendimiento colombiano</h3>
+                <ul>
+                    <li><a href="#">Siguemos</a></li>
+                    
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Información adicional</h3>
+                <ul>
+                    <li><a href="#"> Conoce nuestra historia</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Aliados emprendedores</h3>
+                <ul>
+                    <li><a href="#">Juntemos emprendimientos</a></li>
+                    
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Super descuentos</h3>
+                <ul>
+                    <li><a href="#">Remates de temporada</a></li>
+                   
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
